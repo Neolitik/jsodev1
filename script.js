@@ -8,7 +8,7 @@ let tarih = document.getElementById("gununTarihi");
 
 const date = new Date();
 const yil = date.getFullYear();
-const ay = date.getMonth();
+const ay = date.getMonth()+1;
 const saat = date.getHours();
 const dakika = date.getMinutes();
 
